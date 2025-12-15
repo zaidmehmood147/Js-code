@@ -53,7 +53,7 @@
 // var myDate = new Date("03/25/2015");
 // var myDate = new Date("jan, 35, 2025") //invalid (why?) go and search
 // console.log("myDate", myDate);
-// MM/DD/YYYY
+// MM/DD/YYYY               
 
 // var futureDate = new Date(2030, 0, 10);
 // console.log("futureDate", futureDate);
