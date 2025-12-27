@@ -85,7 +85,7 @@
 //  alert("Shoot me now!");
 //  }
 
-
+// console.log("This is error line")
 
 // WHILE LOOP
 // var i = 1;
