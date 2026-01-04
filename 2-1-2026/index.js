@@ -7,6 +7,14 @@
 // //    console.log("email",emailId)
 // }
 
+function checkmate(sub) {
+  var uname = document.getElementById("sub")
+  if(sub===""){
+    alert("Please enter email to sign up")
+  }
+  console.log(sub)
+}
+
 function checkCampus() {
   var rollNumber = document.getElementById("rollNumber").value;
   var campus;
