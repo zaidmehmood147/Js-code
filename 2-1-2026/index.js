@@ -36,6 +36,26 @@ function checkCampus() {
   document.getElementById("campus").value = campus;
 }
 
+function checkCode(){
+  var district = document.getElementById("district").value;
+  var pc;
+  switch (district) {
+    case "East":
+      pc = "101";
+      break;
+    case "West" :
+      pc = "102";
+      break;
+    case  "South" :
+      pc = "103";
+      break;
+    case "North":
+     pc = "104"  ;
+     break;
+  }
+  document.getElementById("pc").value = pc;
+}
+
 function expandPara() {
   var longPara ="dhfvdjshvdjhvcdjhsvbcjhvsdckjdsbcfjgejkbje"
   var para = document.getElementById("para").innerText =longPara;
