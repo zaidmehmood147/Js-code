@@ -9,6 +9,7 @@
 // const flat = arr => arr.flat(Infinity);
 // // Example: flat([1, [2, 3], [4, [5]]]) // Output: [1, 2, 3, 4, 5]
  
+// it is imp
 // Utility Functions
 // Check if an object is empty: Check the number of keys in an object.
 // javascript
