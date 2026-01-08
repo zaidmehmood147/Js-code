@@ -22,6 +22,8 @@ function swap(imgId, imgsrc) {
         console.error("Could not find image with ID:", imgId);
     }
 }
+//The Fix: We had to tell JavaScript: "Go to the address (imgId), find the building 
+// there (uimg), and change the poster on the wall (.src)."
 
 // html 
 //  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGHxsC9M1B34riNQ9EiG1YbdTZGrTD5KXlQ&s" 
@@ -48,11 +50,12 @@ function swap(imgId, imgsrc) {
 
 // }
 
-// function imageaddress(){
-//     var address = document.getElementById("imglink")
-//    address.href = "https://facebook.com"
-//     console.log("address=>",address)
-// }
+function imageaddress(){
+    var address = document.getElementById("imglink")
+   address.href = "https://github.com/zaidmehmood147"
+   address = address.href;
+    console.log("address=>",address)
+}
 
 
 
