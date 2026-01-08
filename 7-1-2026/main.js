@@ -50,15 +50,23 @@ function swap(imgId, imgsrc) {
 
 // }
 
+// function imageaddress(){
+//     var address = document.getElementById("imglink")
+//    address.href = "https://github.com/zaidmehmood147"
+//    address = address.href;
+//     console.log("address=>",address)
+// }
+
 function imageaddress(){
-    var address = document.getElementById("imglink")
-   address.href = "https://github.com/zaidmehmood147"
-   address = address.href;
-    console.log("address=>",address)
+    var linkElement = document.getElementById("imglink");
+    
+    // 1. Change the destination
+    var newSite = "https://github.com/zaidmehmood147";
+    linkElement.href = newSite;
+    
+    // 2. Force the browser to go there right now
+    window.location.href = newSite;
 }
-
-
-
 // function bigFotn(){
 //     var para = document.getElementById("para")
 //     para.className +=" size"
