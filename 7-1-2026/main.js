@@ -1,10 +1,34 @@
 
                 // parameter---
-function swapImg(imgId,imgSrc){
-    var image = document.getElementById(imgId)
-    image.src = imgSrc 
-    console.log("pic=>",image)
+// function swapImg(imgId,imgSrc){
+//     var image = document.getElementById(imgId)
+//     image.src = imgSrc 
+//     console.log("pic=>",image)
+// }
+
+// function swap(imgId, imgsrc) {
+//     // 1. Get the element and store it in 'uimg'
+//     var uimg = document.getElementById(imgId);
+    
+//     // 2. Use 'uimg' (the actual image element) to change the src
+//     uimg.src = imgsrc;
+// }
+
+function swap(imgId, imgsrc) {
+    var uimg = document.getElementById(imgId);
+    if (uimg) {
+        uimg.src = imgsrc;
+    } else {
+        console.error("Could not find image with ID:", imgId);
+    }
 }
+
+// html 
+//  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGHxsC9M1B34riNQ9EiG1YbdTZGrTD5KXlQ&s" 
+//      alt=""  width="300px"
+//      id="images"
+//      onclick="swap(id, 'https://images.pexels.com/photos/25309822/pexels-photo-25309822.jpeg?cs=srgb&dl=pexels-masoodaslami-25309822.jpg&fm=jpg')"></img>
+
 
 // function swapImg(imgId, imgSrc) {
 //     // 1. Find the image on the page using its ID
@@ -16,13 +40,13 @@ function swapImg(imgId,imgSrc){
 //     // 3. Print the result in the browser console for debugging
 //     console.log("pic=>", image);
 
-function swap(img,src){
-    var uimg = document.getElementById(img)
-    img.src = src;
-    
+// function swap(imgId,imgsrc){
+//     var uimg = document.getElementById(imgId)
+//     imgId.src = imgsrc;
+
     
 
-}
+// }
 
 // function imageaddress(){
 //     var address = document.getElementById("imglink")
