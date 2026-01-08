@@ -1,13 +1,37 @@
-// function swapImg(imgId,imgSrc){
-//     var image = document.getElementById(imgId)
-//     image.src = imgSrc 
-//     console.log("pic=>",image)
-// }
+
+                // parameter---
+function swapImg(imgId,imgSrc){
+    var image = document.getElementById(imgId)
+    image.src = imgSrc 
+    console.log("pic=>",image)
+}
+
+// function swapImg(imgId, imgSrc) {
+//     // 1. Find the image on the page using its ID
+//     var image = document.getElementById(imgId);
+    
+//     // 2. Change the source (src) to the new image URL
+//     image.src = imgSrc;
+    
+//     // 3. Print the result in the browser console for debugging
+//     console.log("pic=>", image);
+
+function swap(img,src){
+    var uimg = document.getElementById(img)
+    img.src = src;
+    
+    
+
+}
+
 // function imageaddress(){
 //     var address = document.getElementById("imglink")
 //    address.href = "https://facebook.com"
 //     console.log("address=>",address)
 // }
+
+
+
 // function bigFotn(){
 //     var para = document.getElementById("para")
 //     para.className +=" size"
@@ -30,12 +54,12 @@
 // console.log("para",para)
 // }
 
-var div = document.getElementById('div')
-div.onclick = function(){
-    console.log("div",div)
-} 
+// var div = document.getElementById('div')
+// div.onclick = function(){
+//     console.log("div",div)
+// } 
 
-var div = document.querySelector('div')
-div.addEventListener("mouseover",function(){
-    console.log("chal gaya",div)
-})
+// var div = document.querySelector('div')
+// div.addEventListener("mouseover",function(){
+//     console.log("chal gaya",div)
+// })
