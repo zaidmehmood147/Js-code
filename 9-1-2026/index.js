@@ -31,6 +31,7 @@ var div = document.getElementById('div1')
 console.log("div=>",div.childNodes[2].parentNode)
 
 //cut
+// json jacob      
 
 // var div = document.getElementById('div3')
 
