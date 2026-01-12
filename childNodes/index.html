@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document (childNodes)</title>
 </head>
-<body>
-    
+<style>
+    .text{
+        /* background-color: olivedrab; */
+        color: rgb(255, 255, 255);
+        border-radius: 40px;
+        padding: 40px;
+    }
+    .text:focus{
+        outline: none;
+    }
+    .text:hover{
+        background-color: #411515;
+    }
+    div{
+        text-align: center;
+        margin-top: 40px;
+    }
+</style>
+<body id="body">
+    <!-- <div id="div1"><p>First paragraph</p><p></p><p>Third paragraph</p></div> -->
+<div class="div">
+    <h2>check in developer mode for more info</h2>
+    <input class="text" type="text" placeholder="Palindrom checker" id="input">
+    <button type="submit" onclick="check()" class="text">click to check</button>
+</div>
+    <script src="main.js"></script>
 </body>
 </html>
