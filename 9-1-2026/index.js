@@ -1,11 +1,15 @@
-// var div = document.getElementById('div3')
+var div = document.getElementById('div3')
 
-// var para = div.getElementsByTagName('p')
-// // var specificPara = para[2].innerText
-// console.log("p=>",para)
+var para = div.getElementsByTagName('p')
+var specificPara = para[2].innerText
+console.log("p=>",para)
 
 // var check = document.childNodes[1].childNodes[1].childNodes[1].innerText
 // console.log("check=>",check)
+
+
+// var zaid = document.childNodes[1].childNodes[1]
+// console.log = ("check=>", zaid)
  
 // var div = document.getElementById('div1')
 // console.log("div=>",div.childNodes)
