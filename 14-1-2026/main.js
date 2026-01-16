@@ -102,7 +102,7 @@ var listDiv = document.getElementById("div")
 var paragraph = document.createElement('p')
 
 var paraText = document.createTextNode(input)
-paragraph.appendChild(paraText)
+paragraph.appendChild(paraText)                    
 listDiv.appendChild(paragraph)
 // if you want to appear last para on top
 paraOnTop = listDiv.firstChild
