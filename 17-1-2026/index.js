@@ -45,25 +45,25 @@
 // obj.subjects= ["maths", "science", "english"]
 // console.table(obj.subjects[2])
 
-// var obj = {
-//   name: "ali",
-//   age: 30,
-// };
-// obj.roll = 10;
-// obj.bio = undefined;
-// console.log(obj);
-// delete obj.name
-// console.log("sub" in obj); //boolean
-
-// for (let keys in obj) {
-//   console.log("keys=>", keys, "value=>" ,obj[keys]);
-// }
-
 var obj = {
   name: "ali",
-  age: 20,
-  funct: ()=> {
-    console.log("value=>", this.name);
-  },
+  age: 30,
 };
-obj.funct();
+obj.roll = 10;
+obj.bio = undefined;
+console.log(obj);
+delete obj.name
+console.log("sub" in obj); //boolean true or false
+
+for (let keys in obj) {
+  console.log("keys=>", keys, "value=>" ,obj[keys]);
+}
+
+// var obj = {
+//   name: "ali",
+//   age: 20,
+//   funct: ()=> {
+//     console.log("value=>", this.name);
+//   },
+// };
+// obj.funct();
