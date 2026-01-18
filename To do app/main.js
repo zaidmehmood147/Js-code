@@ -9,9 +9,10 @@
 //     </div>
 //     <script src="main.js"></script> */
 
-function addtask(){
-var input = document.getElementById("input").value;
-var para = document.getElementById("para").innerText = input;
-
-
+var input = document.getElementById("input");
+var addtask = function add(){
+    var p = document.getElementById("para");
+    // var newElement = document.nextSibling("p")
+    var node = document.createTextNode(input);
+    p.appendChild(node)
 }

@@ -27,6 +27,21 @@
 //   },
 // //   alert: alert("message from object"),
 // };
+
+var countries = {
+  japan : ["tokyo","osaka","hisenberg"] ,
+  usa : ["java" , "css" , "html"],
+  krose : {
+    icon : "momento" ,
+    riffs : "de nuit",
+    initio : {
+      do : "dont" ,
+      was : "were" , 
+      ionic : "nodejs"
+    }
+  } 
+}
+
 // console.log(student.bio);
 // console.log(student["name"])
 // console.log(student.name)
@@ -45,19 +60,19 @@
 // obj.subjects= ["maths", "science", "english"]
 // console.table(obj.subjects[2])
 
-var obj = {
-  name: "ali",
-  age: 30,
-};
-obj.roll = 10;
-obj.bio = undefined;
-console.log(obj);
-delete obj.name
-console.log("sub" in obj); //boolean true or false
+// var obj = {
+//   name: "ali",
+//   age: 30,
+// };
+// obj.roll = 10;
+// obj.bio = undefined;
+// console.log(obj);
+// delete obj.name
+// console.log("sub" in obj); //boolean true or false
 
-for (let keys in obj) {
-  console.log("keys=>", keys, "value=>" ,obj[keys]);
-}
+// for (let keys in obj) {
+//   console.log("keys=>", keys, "value=>" ,obj[keys]);
+// }
 
 // var obj = {
 //   name: "ali",
