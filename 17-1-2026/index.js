@@ -51,15 +51,15 @@ console.log(countries.krose.initio.ionic)
 // console.log(student.car["name"]);
 // console.log(student.car.cc);
 
-// var obj = new Object(); //object constructor
-// var arr = new Array();
-// arr[100]= "a"
-// arr[101]="b"
-// console.log(arr.length)
-// obj.name = "ibrahim";
-// obj.age = 20;
-// obj.subjects= ["maths", "science", "english"]
-// console.table(obj.subjects[2])
+var obj = new Object(); //object constructor
+var arr = new Array();
+arr[100]= "a"
+arr[101]="b"
+console.log(arr.length)
+obj.name = "ibrahim";
+obj.age = 20;
+obj.subjects= ["maths", "science", "english"]
+console.table(obj.subjects[2])
 
 // var obj = {
 //   name: "ali",
