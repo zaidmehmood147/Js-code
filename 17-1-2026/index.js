@@ -67,8 +67,8 @@ var arr = new Array();
 arr[1010] = "zaid";
 // console.log(arr.length)
 obj.zaid = "zt" ; 
-obj.cocomo = "this aint";
-console.log(obj)
+obj.cocomo = "this is cocomo";
+console.log(obj.cocomo)
 
 // var obj = {
 //   name: "ali",
