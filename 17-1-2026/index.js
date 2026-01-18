@@ -65,7 +65,10 @@ console.log(countries.krose.initio.ionic)
 var obj = new Object();
 var arr = new Array();
 arr[1010] = "zaid";
-
+// console.log(arr.length)
+obj.zaid = "zt" ; 
+obj.cocomo = "this aint";
+console.log(obj)
 
 // var obj = {
 //   name: "ali",
