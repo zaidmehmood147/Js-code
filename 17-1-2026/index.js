@@ -62,7 +62,10 @@ console.log(countries.krose.initio.ionic)
 // console.table(obj.subjects[2])
 
 
-var
+var obj = new Object();
+var arr = new Array();
+arr[1010] = "zaid";
+
 
 // var obj = {
 //   name: "ali",
