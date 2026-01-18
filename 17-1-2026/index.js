@@ -41,6 +41,7 @@ var countries = {
     }
   } 
 }
+console.log(countries.krose[4])
 
 // console.log(student.bio);
 // console.log(student["name"])
