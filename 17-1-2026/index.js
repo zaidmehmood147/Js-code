@@ -76,19 +76,21 @@ console.log(obj.cocomo)
 // };
 // obj.roll = 10;
 // obj.bio = undefined;
-// console.log(obj);
+// // console.log(obj);
 // delete obj.name
-// console.log("sub" in obj); //boolean true or false
+// console.log("roll" in obj); //boolean true or false
 
-// for (let keys in obj) {
-//   console.log("keys=>", keys, "value=>" ,obj[keys]);
-// }
 
-// var obj = {
-//   name: "ali",
-//   age: 20,
-//   funct: ()=> {
-//     console.log("value=>", this.name);
-//   },
-// };
-// obj.funct();
+
+for (let keys in obj) {
+  console.log("keys=>", keys, "value=>" ,obj[keys]); // shows all the keys and their values
+}
+console.log("break")
+var obj = {
+  name: "ali",
+  age: 20,
+  funct: ()=> {
+    console.log("value=>", this.name);
+  },
+};
+obj.funct(); // calling func
