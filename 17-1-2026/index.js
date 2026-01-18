@@ -41,7 +41,7 @@ var countries = {
     }
   } 
 }
-console.log(countries.krose[4])
+console.log(countries.krose.initio.ionic)
 
 // console.log(student.bio);
 // console.log(student["name"])
