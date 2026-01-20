@@ -46,3 +46,27 @@
 // };
 // let test = obj4;
 // console.log("test=>",test)
+
+// function Student(name, age, roll) {
+//   this.name = name;
+//   this.age = age;
+//   this.roll = roll;
+//   this.id = 150;
+// }
+
+// var student1 = new Student("ali", 30, 100);
+// // var student2 = new Student("ibrahim",19,200)
+// console.log(student1);
+
+// var obj6 = {
+//    name:"ali",
+//    roll:20,
+// }
+// obj6.funct = function(){
+//  return ("inside function " + this.name).toUpperCase()
+// }
+// // console.log(obj6.funct())
+
+// var result = Object.values(obj6)
+// console.log("result=>",result)
+// console.log("result=>",JSON.stringify(obj6))
