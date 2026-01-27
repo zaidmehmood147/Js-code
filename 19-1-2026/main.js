@@ -58,15 +58,15 @@
 // // var student2 = new Student("ibrahim",19,200)
 // console.log(student1);
 
-// var obj6 = {
-//    name:"ali",
-//    roll:20,
-// }
-// obj6.funct = function(){
-//  return ("inside function " + this.name).toUpperCase()
-// }
-// // console.log(obj6.funct())
+var obj6 = {
+   name:"ali",
+   roll:20,
+}
+obj6.funct = function(){
+ return ("inside function " + this.name).toUpperCase()
+}
+console.log(obj6.funct())
 
-// var result = Object.values(obj6)
-// console.log("result=>",result)
-// console.log("result=>",JSON.stringify(obj6))
+var result = Object.values(obj6)
+console.log("result=>",result)
+console.log("result=>",JSON.stringify(obj6))
