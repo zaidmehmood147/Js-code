@@ -61,13 +61,19 @@ console.log("Hello world");
 // You add it ($6 + 4$). 
 // The bank now has $10$.Fifth Bill ($5$): You add it ($10 + 5$). The bank now has $15$.
 
-var arr = [1, 2, 3, 4, 5];
+// var arr = [1, 2, 3, 4, 5];
 
- var calculate = arr.reduce((acc,current)=>acc + current,0) // acc -> accumulator
- console.log(calculate)
+//  var calculate = arr.reduce((acc,current)=>acc + current,0) // acc -> accumulator
+//  console.log(calculate) // Ans => 15
 
+
+// var arr = [1, 2, 3, 4, 5];
 // var findArr = arr.find((num) => num % 2 == 0);
 // console.log("find",findArr)
+
+
+// HERE NEW PRAC
+
 
 // var some = arr.some((num) => num > 0);
 // console.log("find some", some);
