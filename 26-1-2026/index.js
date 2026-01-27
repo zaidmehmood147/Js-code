@@ -2,9 +2,9 @@ console.log("Hello world");
 // function innerFunction() {
 //   console.log("khan");
 // }
-
+// innerFunction()
 // function main(fname,test) {
-//   console.log(fname);
+// //   console.log(fname);
 //   test();
 // }
 // main("ali", innerFunction);
@@ -22,21 +22,49 @@ console.log("Hello world");
 //   return p * q;
 // }
 // console.log(calculate(5, 10, multi));
+// console.log(calculate(5, 10, subtr));
+// console.log(calculate(5, 10, sum));
+
+
+// start from here 
+
+// Step-by-Step BreakdownThe Source (arr): You start with an array of numbers: [1, 2, 3, 4, 5].
+// The Loop: The .map() function "loops" through the array one by one.The Logic: For every item 
+// (which the code calls num), it runs the instruction return num + 3.The Result (mapArr): 
+// It collects all those new values into a new variable.Visualizing the MathThe computer is 
+// essentially doing this behind the scenes:$1 + 3 = 4$$2 + 3 = 5$$3 + 3 = 6$$4 + 3 = 7$$5 + 3 = 8$Console Output:[4, 5, 6, 7, 8]
+// Two Things to RememberImmutability: The original arr is still [1, 2, 3, 4, 5]. It hasn't changed. Map creates a copy with changes.The Return is Key: If you forget to write return, your new array will just be a bunch of undefined values.A Modern ShortcutIn modern JavaScript (ES6+), developers usually write this same code in a shorter way using an arrow function:JavaScriptconst mapArr = arr.map(num => num + 3);
+
 
 // var arr = [1, 2, 3, 4, 5];
 
 // var mapArr = arr.map(function (num) {
-//   return num + 3;
+//   return num + 4; // loops run on each array 
 // });
 // console.log(mapArr);
 
-// var filter = arr.filter(function (num) {
-//   return num % 2 == 0;
+//While .map() is about transforming every item, .filter() is about choosing specific items based on a rule.
+
+// var arr = [1, 2, 3, 4, 5];
+
+// var filter = arr.filter(function (num) { //The function inside .filter() must always return a boolean (true or false). If it's true, the item stays. If it's false, it's gone.
+//   return num % 2 == 0; // check condition each it gives true/false always
 // });
 // console.log(filter)
 
-// var calculate = arr.reduce((acc,current)=>acc + current,0)
-// console.log(calculate)
+// modern version
+// const evenNumbers = arr.filter(num => num % 2 === 0);
+
+// The Process (Step-by-Step)You pick up the bills one by one and put them in the bank:First Bill ($1$): 
+// You put it in. The bank now has $1$.Second Bill ($2$): You add it to what's already inside ($1 + 2$). 
+// The bank now has $3$.Third Bill ($3$): You add it ($3 + 3$). The bank now has $6$.Fourth Bill ($4$): 
+// You add it ($6 + 4$). 
+// The bank now has $10$.Fifth Bill ($5$): You add it ($10 + 5$). The bank now has $15$.
+
+var arr = [1, 2, 3, 4, 5];
+
+ var calculate = arr.reduce((acc,current)=>acc + current,0) // acc -> accumulator
+ console.log(calculate)
 
 // var findArr = arr.find((num) => num % 2 == 0);
 // console.log("find",findArr)
