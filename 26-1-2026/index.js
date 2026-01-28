@@ -104,10 +104,10 @@ console.log("Hello world");
 // console.log("find some", foreach);
 
 
-var arr = [1, 2, 3];
-for (let index = 0; index < arr.length; index++) {
-  console.log(arr[index])
-}
+// var arr = [1, 2, 3];
+// for (let index = 0; index < arr.length; index++) {
+//   console.log(arr[index])
+// }
 
 // function outer() {
 //   var a = 2;
