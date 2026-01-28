@@ -116,12 +116,12 @@ console.log("Hello world");
 //     var b = 3;
 //     console.log(b);
 //   }
-//   inner();
+//   inner(); // it would not run outside the function
 // }
 // outer();
 
-var arr1 =[1,2,3]
-var arr2 =[2,4,5]
+// var arr1 =[1,2,3]
+// var arr2 =[2,4,5]
 
-var union = arr1.join(arr2)
-console.log(union)
+// var union = arr1.join(arr2)
+// console.log(union)
