@@ -91,21 +91,23 @@ console.log("Hello world");
 // console.log("find some", some); // The Result: Since 1 is greater than 0, the condition is met immediately.
 
 
+// var arr = [1, 2, 3];
+// // The .forEach() method executes the provided function once for each array element. 
+// // In your code, it multiplies each number by 2 and logs it to the console.
+
+// // It logs 2
+
+// // It logs 4
+
+// // It logs 6
+// var foreach = arr.forEach((num) => console.log(num * 3));
+// console.log("find some", foreach);
+
+
 var arr = [1, 2, 3];
-// The .forEach() method executes the provided function once for each array element. 
-// In your code, it multiplies each number by 2 and logs it to the console.
-
-// It logs 2
-
-// It logs 4
-
-// It logs 6
-var foreach = arr.forEach((num) => console.log(num * 3));
-console.log("find some", foreach);
-
-// for (let index = 0; index < arr.length; index++) {
-//   console.log(arr[index])
-// }
+for (let index = 0; index < arr.length; index++) {
+  console.log(arr[index])
+}
 
 // function outer() {
 //   var a = 2;
