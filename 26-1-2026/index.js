@@ -144,3 +144,49 @@ console.log("Hello world");
 
 // console.log(realUnion); 
 // // Output: [1, 2, 3, 2, 4, 5]
+
+
+// .some() — The "Quick Check"
+// Goal: Does at least one item meet the condition?
+
+// Result: true or false.
+
+// Best for: Validating if any errors exist or if a user has a specific permission.
+
+// Code: arr.some(n => n > 0)
+
+// 2. .forEach() — The "Doer"
+// Goal: Run a piece of code for every item (like logging or saving).
+
+// Result: undefined (It returns nothing!).
+
+// Best for: Printing to the console or updating an external database.
+
+// Code: arr.forEach(n => console.log(n))
+
+// 3. for Loop — The "Manual Control"
+// Goal: Full control over how you move through the list.
+
+// Result: Whatever you manually tell it to do.
+
+// Best for: When you need to break early, skip items, or loop backwards.
+
+// Code: for (let i = 0; i < arr.length; i++) { ... }
+
+// 4. .concat() — The "Combiner"
+// Goal: Merge two or more arrays into one big list.
+
+// Result: A new array.
+
+// Best for: Adding new data to an existing list.
+
+// Code: arr1.concat(arr2)
+
+// 5. .join() — The "Text Maker"
+// Goal: Turn an array into a single string (text).
+
+// Result: A string.
+
+// Best for: Creating a comma-separated list for a sentence (e.g., "1, 2, 3").
+
+// Code: arr.join(", ")
