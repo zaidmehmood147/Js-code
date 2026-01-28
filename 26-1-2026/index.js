@@ -190,3 +190,12 @@ console.log("Hello world");
 // Best for: Creating a comma-separated list for a sentence (e.g., "1, 2, 3").
 
 // Code: arr.join(", ")
+
+
+// Method,Returns,Use when you want to...
+// .some(),Boolean,Check if any item matches.
+// .every(),Boolean,Check if all items match.
+// .forEach(),Nothing,Just execute code for each item.
+// .map(),New Array,Change every item in the list.
+// .concat(),New Array,Combine two lists together.
+// .join(),String,Turn the list into Text.
