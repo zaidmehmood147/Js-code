@@ -120,8 +120,27 @@ console.log("Hello world");
 // }
 // outer();
 
+
+
+
+// What .join() actually does
+// The .join() method is used to convert an array into a single string.
+
+// It takes all the items in an array and glues them together using a "separator."
+
+// If you pass something into .join(), it converts that thing to a string and uses it as the glue.
+
 // var arr1 =[1,2,3]
 // var arr2 =[2,4,5]
 
 // var union = arr1.join(arr2)
 // console.log(union)
+
+// var arr1 = [1, 2, 3];
+// var arr2 = [2, 4, 5];
+
+// // This "adds" them together
+// var realUnion = arr1.concat(arr2);
+
+// console.log(realUnion); 
+// // Output: [1, 2, 3, 2, 4, 5]
