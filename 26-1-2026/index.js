@@ -74,12 +74,34 @@ console.log("Hello world");
 
 // HERE NEW PRAC
 
+// Method,Goal,Result in your code
+// .some(),Is any item > 0?,true
+// .every(),Are all items > 0?,true
+// .filter(),Which items are > 0?,"[1, 2, 3, 4, 5]"
 
-// var some = arr.some((num) => num > 0);
-// console.log("find some", some);
-// var arr = [1, 2, 3];
-// var foreach = arr.forEach((num) => console.log(num * 2));
-// console.log("find some", foreach);
+//This snippet is a quick way to check if at least one element in an array meets a specific 
+// condition. In this case, it's checking for positive numbers.
+// .some() is very efficient. If you had an array of a million numbers and the first one matched your criteria, 
+// it would stop right there rather than checking the other 999,999.
+// var arr = [1, 2, 3, 4, 5]; // true
+// var arr = [-2,-5,-13]; // false
+
+// var some = arr.some((num) => num > 0); // it checks every element 'condition meeting' 
+// // As soon as it finds one element that makes the condition true, it stops searching and returns true.
+// console.log("find some", some); // The Result: Since 1 is greater than 0, the condition is met immediately.
+
+
+var arr = [1, 2, 3];
+// The .forEach() method executes the provided function once for each array element. 
+// In your code, it multiplies each number by 2 and logs it to the console.
+
+// It logs 2
+
+// It logs 4
+
+// It logs 6
+var foreach = arr.forEach((num) => console.log(num * 3));
+console.log("find some", foreach);
 
 // for (let index = 0; index < arr.length; index++) {
 //   console.log(arr[index])
