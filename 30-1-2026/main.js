@@ -1,15 +1,24 @@
-console.log("js zinda he")
+console.log("js zinda hai")
+
+// var array = [
+//    {uname : "zaid111" } , 
+//    { class : "XI"} , 
+//    { fname : "zaid mehmood"}
+// ]
+// for (let index = 0; index < array.length; index++) {
+//     console.log(array[index]);
+    
+// }
 
 // var arr =[{name:"ali"},{name:"bilal"}]
-
 // for (let index = 0; index < arr.length; index++) {
 //     console.log(arr[index])
 // }
 
-// var arrMap = arr.map(function(data){
-//     return data
-// })
-// console.log("arrMap",arrMap)
+var arrMap = arr.map(function(data){
+    return data
+})
+console.log("arrMap",arrMap)
 
 // fetch('https://dummyjson.com/users')
 // .then(res => res.json())
