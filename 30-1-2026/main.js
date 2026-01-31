@@ -15,6 +15,7 @@ console.log("js zinda hai")
 //     console.log(arr[index])
 // }
 
+ var arr = [0,1,2,3,4,5]
 var arrMap = arr.map(function(data){
     return data
 })
