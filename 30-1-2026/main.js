@@ -1,4 +1,4 @@
-// console.log("js zinda he")
+console.log("js zinda he")
 
 // var arr =[{name:"ali"},{name:"bilal"}]
 
@@ -29,19 +29,19 @@
 // }
 // test()
 // console.log("fname=>",fname)
-token = "fregerfger"
-function outer() {
-    let fname = 12
-    function inner() {
-        let lname = "khan"
-        fname++
-        console.log(fname, lname)
-    }
-    inner()
-    inner()
-    inner()
-}
-outer()
+// token = "fregerfger"
+// function outer() {
+//     let fname = 12
+//     function inner() {
+//         let lname = "khan"
+//         fname++
+//         console.log(fname, lname)
+//     }
+//     inner()
+//     inner()
+//     inner()
+// }
+// outer()
 
 // function test2(){
 //     let a = 2
@@ -122,13 +122,13 @@ outer()
 // synchronous  //line by line
 // asynchronous //
 
-console.log("first line")
+// console.log("first line")
 
-async function test() {
- setTimeout(()=>{
-    console.log("set time out")
-},2000)
-}
-setTimeout(test)
+// async function test() {
+//  setTimeout(()=>{
+//     console.log("set time out")
+// },2000)
+// }
+// setTimeout(test)
 
-console.log("second line")
+// console.log("second line")
