@@ -1,5 +1,9 @@
 console.log("js zinda hai")
 
+function summonDance() {
+            document.getElementById('cat-container').style.display = 'block';
+        }
+
 // var array = [
 //    {uname : "zaid111" } , 
 //    { class : "XI"} , 
@@ -15,11 +19,11 @@ console.log("js zinda hai")
 //     console.log(arr[index])
 // }
 
- var arr = [0,1,2,3,4,5]
-var arrMap = arr.map(function(data){
-    return data
-})
-console.log("arrMap",arrMap)
+//  var arr = [0,1,2,3,4,5]
+// var arrMap = arr.map(function(data){
+//     return data
+// })
+// console.log("arrMap",arrMap)
 
 // fetch('https://dummyjson.com/users')
 // .then(res => res.json())
@@ -30,15 +34,17 @@ console.log("arrMap",arrMap)
 // let uname = "ali"
 
 // if (true) {
-//     let fname = "ali"
+//    let fname = "ali" // block scope
 // }
 // console.log("fname=>",fname)
 
 // function test() {
-//     var fname = "ali2"
+//     //  fname = "ali2" // global 
+//     // var fname = "ali2" ;
 // }
 // test()
 // console.log("fname=>",fname)
+
 // token = "fregerfger"
 // function outer() {
 //     let fname = 12
@@ -56,6 +62,7 @@ console.log("arrMap",arrMap)
 // function test2(){
 //     let a = 2
 //     return a
+    
 // }
 // test2()
 
