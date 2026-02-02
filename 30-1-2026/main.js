@@ -124,40 +124,40 @@ function summonDance() {
 
 
 
-// class studentData {
-//     constructor(fname, lname) { 
+class studentData {
+    constructor(fname, lname) { 
    
-//         this.fname = fname;
-//         this.lname = lname;
-//     }
-//     getData(){
-//         return console.log(this.fname + this.lname)
-//     }
+        this.fname = fname;
+        this.lname = lname;
+    }
+    getData(){
+        return console.log(this.fname + this.lname)
+    }
    
-// }
+}
 
 
-// class StudentAge extends  studentData{
-//     // constructor
-// }
+class StudentAge extends  studentData{
+    // constructor
+}
 
 
 
-// var student1 = new studentData("ali","khan")
+var student1 = new studentData("ali"," khan")
 
-// student1.getData()
+student1.getData()
 
 
 // synchronous  //line by line
-// asynchronous //
+// asynchronous // Stops and translated after given time
 
-// console.log("first line")
+console.log("first line")
 
-// async function test() {
-//  setTimeout(()=>{
-//     console.log("set time out")
-// },2000)
-// }
-// setTimeout(test)
+async function test() {
+ setTimeout(()=>{
+    console.log("set time out")
+},300)
+}
+setTimeout(test)
 
-// console.log("second line")
+console.log("second line")
