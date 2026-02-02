@@ -111,19 +111,24 @@ function summonDance() {
 // add();
 // add();
 
+     
+        // var fname = "zaid";
+        // var lname = "mehmod";
 
 
 
-// class studentData {
-//     constructor(fname, lname) {
-//         this.fname = fname
-//         this.lname = lname
-//     }
-//     getData(){
-//         return console.log(this.fname + this.lname)
-//     }
+class studentData {
+    constructor(fname, lname) { 
    
-// }
+        this.fname = fname;
+        this.lname = lname;
+    }
+    getData(){
+        return console.log(this.fname + this.lname)
+    }
+   
+}
+// constructor("zaid","mehmod")
 
 // class StudentAge extends  studentData{
 //     // constructor
