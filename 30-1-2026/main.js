@@ -111,9 +111,16 @@ function summonDance() {
 // add();
 // add();
 
-     
-        // var fname = "zaid";
-        // var lname = "mehmod";
+//   // Create instance of StudentAge
+// const student1 = new StudentAge("John", "Doe");
+
+// // Inherited properties work
+// console.log(student1.fname); // "John"
+// console.log(student1.lname); // "Doe"
+
+// // Inherited method works
+// student1.getData(); // Logs: "JohnDoe"   
+        
 
 
 
@@ -128,11 +135,11 @@ function summonDance() {
 //     }
    
 // }
-// constructor("zaid","mehmod")
 
-class StudentAge extends  studentData{
-    // constructor
-}
+
+// class StudentAge extends  studentData{
+//     // constructor
+// }
 
 
 
