@@ -22,3 +22,33 @@
 //     }
 // }
 // mainobj.stdData.apply(obj,["hello  ","hello2 ","hello3 ","hello2 ","hello3 "])
+
+// const obj = {
+//     a: "hello",
+//     b: 10
+// }
+// function test() {
+//    return console.log(this.b)
+// }
+
+// const bindFunction  = test.bind(obj)
+// bindFunction()
+
+//   ---bind()
+
+// const mainobj = {
+//     name: "ali",
+//     age: 30,
+//     stdData: function () {
+//         console.log(this.age)
+//     }
+// }
+// const obj = {
+//     name: "ali",
+//     age: 20,
+// }
+// // mainobj.stdData.call(obj)
+// const bindFunction = mainobj.stdData.bind(obj)
+// bindFunction()
+
+// personalbar.call( obj,argssssss)
