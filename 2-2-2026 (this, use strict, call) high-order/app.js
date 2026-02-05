@@ -28,3 +28,28 @@
 //     lastName: "khan",
 //     age: 30
 // }
+
+// student.call(student1,"khan")
+
+// const studentData = {
+//     fullName: function (test,test2) {
+//         return console.log(`hello  ${test} ${test2}  ${this.fname}  ${this.age}  `)
+//     }
+// }
+// const student1 ={
+//     fname:"ali",
+//     lname:"khan",
+//     age:20
+// }
+// studentData.fullName.call(student1,"test","test2")
+
+// function test(){
+//     return console.log(this.name.mname)
+// }
+// const std = {
+//     name:{
+//         mname:"ali khan"
+//     }
+// }
+// // test("ali")
+// test.call(std)
