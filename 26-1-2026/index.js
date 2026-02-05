@@ -124,7 +124,7 @@ console.log("Hello world");
 
 
 // What .join() actually does
-// The .join() method is used to convert an array into a single string.
+// The .join() ethod is used to convert an array into a single string.
 
 // It takes all the items in an array and glues them together using a "separator."
 
