@@ -46,19 +46,19 @@
 // bindFunction()
 
 
-const obj = { b: 10 };
+// const obj = { b: 10 };
 
-function test() {
-    console.log(this.b);
-}
+// function test() {
+//     console.log(this.b);
+// }
 
-// 1. We pair the function to the object.
-// It DOES NOT run yet. It just creates a "Paired Version" of 'test'.
-const pairedRemote = test.bind(obj);
+// // 1. We pair the function to the object.
+// // It DOES NOT run yet. It just creates a "Paired Version" of 'test'.
+// const pairedRemote = test.bind(obj);
 
-// 2. Later on... maybe 10 minutes later...
-// We can use that paired version.
-pairedRemote(); // Result: 10
+// // 2. Later on... maybe 10 minutes later...
+// // We can use that paired version.
+// pairedRemote(); // Result: 10
 
 //   ---bind()
 
@@ -74,7 +74,12 @@ pairedRemote(); // Result: 10
 //     age: 20,
 // }
 // // mainobj.stdData.call(obj)
-// const bindFunction = mainobj.stdData.bind(obj)
-// bindFunction()
+// // const bindFunction = mainobj.stdData.bind(obj)
+// // bindFunction()
+// const personalbar = {
+//     function(){
+//       return console.log(this.name)
+//     }
+// }
 
-// personalbar.call( obj,argssssss)
+// personalbar.call( obj)
