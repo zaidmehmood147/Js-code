@@ -3,7 +3,7 @@ const todoInput = document.getElementById("todoInput");
 const todoList = document.getElementById("todoList");
 
 // Load the saved todos when the page loads
-getData();
+getData(); ////// /////
 
 addTodo.addEventListener("click", () => {
   const todoText = todoInput.value;
