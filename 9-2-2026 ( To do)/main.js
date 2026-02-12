@@ -37,4 +37,4 @@ function getData() {
     li.textContent = todo;
     todoList.appendChild(li);
   });
-} // // code written by zaid
+} // // code written by zaid    s/savedTodos
