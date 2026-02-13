@@ -20,3 +20,22 @@
 //     b:6,
 
 // }
+
+// console.log(obj.b?.c) //optional chaining
+// console.log(obj.a ? obj.a : obj.b ?  "nhi he")
+// const  {a,b } = obj //destructure
+// function calculate(a,b,callback){
+//   return callback(a,b)
+// }
+// function sum(a,b){
+//   return a+b
+// }
+// function minus(a,b){
+//   return a-b
+// }
+// console.log(calculate(obj.a,obj.b,sum))
+
+// function delay(){
+//     console.log("i will console lately")
+// }
+// setTimeout(delay ,3000)
