@@ -18,11 +18,11 @@ console.log("zaid mehmood") ;
 // var num2 = +prompt("enter num2")
 // console.log(num1 + num2)
 
-// var obj = {
-//     // a:3,
-//     b:6,
+var obj = {
+    // a:3,
+    b:6,
 
-// }
+}
 
 // console.log(obj.b?.c) //optional chaining // With ?.: JavaScript checks the value before the dot.
 
@@ -31,7 +31,11 @@ console.log("zaid mehmood") ;
 // If Yes: It keeps going to look for c.
 
 // If No (or if it's a type that can't have properties, like your number 6): It stops and just returns undefined instead of crashing.
-// console.log(obj.a ? obj.a : obj.b ?  "not available")
+
+// console.log(obj.a ? obj.a : obj.b ?  "not available");
+// console.log(obj.a ? obj.a : obj.b ? obj.b : "not available");
+         //  condition ? value_if_true : value_if_false.
+//Ternary Operators
 // const  {a,b } = obj //destructure
 // function calculate(a,b,callback){
 //   return callback(a,b)
