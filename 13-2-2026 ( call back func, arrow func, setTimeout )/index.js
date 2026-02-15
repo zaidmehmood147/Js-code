@@ -16,6 +16,8 @@ console.log("zaid mehmood") ;
 // arrowFunction(4,5)
 // var num1 = +prompt("enter num1")
 // var num2 = +prompt("enter num2")
+
+
 // var obj = {
 //     // a:3,
 //     b:6,
