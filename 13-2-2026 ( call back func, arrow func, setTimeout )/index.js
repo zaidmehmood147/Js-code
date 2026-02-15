@@ -46,9 +46,21 @@ var obj = {
 // function minus(a,b){
 //   return a-b
 // }
-// console.log(calculate(obj.a,obj.b,sum))
+// console.log(calculate(5,4,sum))
 
 // function delay(){
 //     console.log("i will console lately")
 // }
 // setTimeout(delay ,3000) ///////
+
+var result = document.getElementById("result");
+var temp = document.getElementById("input").value;
+var submit = document.getElementById("submit") ;
+
+
+console.log(temp)
+
+var func = function(temp){
+
+}
+func(temp)
