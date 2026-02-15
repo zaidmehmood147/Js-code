@@ -24,8 +24,14 @@ console.log("zaid mehmood") ;
 
 // }
 
-// console.log(obj.b?.c) //optional chaining
-// console.log(obj.a ? obj.a : obj.b ?  "nhi he")
+// console.log(obj.b?.c) //optional chaining // With ?.: JavaScript checks the value before the dot.
+
+// It asks: "Does the stuff before the ? exist?"
+
+// If Yes: It keeps going to look for c.
+
+// If No (or if it's a type that can't have properties, like your number 6): It stops and just returns undefined instead of crashing.
+// console.log(obj.a ? obj.a : obj.b ?  "not available")
 // const  {a,b } = obj //destructure
 // function calculate(a,b,callback){
 //   return callback(a,b)
