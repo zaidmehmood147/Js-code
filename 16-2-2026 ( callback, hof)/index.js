@@ -16,6 +16,15 @@
 //     console.log(add)
 // }
 
+// function calculas(num,bum){
+//   let zaid = num * bum + num
+//   multiply(zaid)
+// }
+// calculas(4,4)
+// function multiply(zaid){
+// console.log(zaid)
+// }
+
 // function main(num1, num2, callback) {
 //   return callback(num1, num2);
 // }
@@ -139,4 +148,4 @@
 // console.log(reduce)
 
 // var arr = [1, 2, 3, 4, 5];
-//  var reduce = arr.find((num) => console.log(num == 3));
+//  var reduce = arr.find((num) => console.log(num == 3)) ;
