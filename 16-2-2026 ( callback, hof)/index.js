@@ -36,6 +36,7 @@
 // }
 
 
+
 // console.log(main(4, 5, sub));
 
 //  =-- high order functions
@@ -43,8 +44,9 @@
 // var arr = [1, 2, 3, 4, 5, 6, 7];
 // var newArr = arr.map(callback)
 // function callback(value){
-//     return value + 2
+//     return console.log(value + 2)
 // }
+// callback()
 // var newArr = arr.map(function(value){
 //     return value + 2
 // })
