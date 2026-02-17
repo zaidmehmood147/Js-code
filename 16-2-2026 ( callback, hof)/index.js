@@ -46,12 +46,12 @@
 // function callback(value){
 //     return console.log(value + 2)
 // }
-// callback()
+// c
 // var newArr = arr.map(function(value){
 //     return value + 2
 // })
 // var newArr = arr.map((value) => value + 2);
-// console.log(newArr);
+// // console.log(newArr);
 
 // var arr = [1, 2, 3, 4, 5, 6, 7]; //iteration
 
@@ -73,9 +73,9 @@
 //     callback()
 //       console.log("function 3")
 // }
-// funct1(()=>{
-//     funct2(()=>{
-//         funct3(()=>{
+//  funct1(()=>{
+//      funct2(()=>{
+//          funct3(()=>{
 //             console.log("functions running")
 //         })
 //     })
@@ -85,11 +85,11 @@
 
 // var value = new Promise(resolve , reject)
 
-// console.log("first console")
-// setTimeout(()=>{
-// conole.log("second console")
-// })
-// console.log("third console")
+console.log("first console")
+setTimeout(()=>{
+console.log("second console")
+})
+console.log("third console")
 // setTimeout
 // Promise //light weigth
 // console
