@@ -124,3 +124,32 @@
 //2. aik apne data cosole karna he aur reject hone pe console.error ka msg dikhana he
 
 //3. aik dummy api fetch karke una title aur image console karna he
+
+// task 1
+// var func = function uname() {
+//     console.log("Hello")
+// }
+// setTimeout(func, 5000)
+
+// task 2
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(res => res.json)
+// .then(
+//     data => {
+//         console.log(dat)
+//     }
+    
+// )
+// .catch(
+//     error => 
+//         console.error("oh no error!!" , error)
+// )
+
+// task3
+// fetch('https://jsonplaceholder.typicode.com/photos/3')
+// .then(respo => respo.json())
+// .then(
+//     data => console.log("data: " , data.title ,
+//         "image: " , data.url ) 
+    
+// )
