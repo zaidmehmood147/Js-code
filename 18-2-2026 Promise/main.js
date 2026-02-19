@@ -96,3 +96,55 @@
 //     .catch((error) => {
 //         console.log(error); // This runs if it rejected
 //     });
+
+// 1. We "Order" the data (this returns a Promise/Pager)
+// fetch('https://dummyjson.com/users/1')
+  
+//   // 2. When the pager buzzes, turn the "raw response" into a "JS object"
+//   .then(response => response.json()) 
+  
+//   // 3. Now that we have the actual data, use it!
+//   .then(user => {
+//     console.log("The user name is:", user.firstName);
+//   })
+  
+//   // 4. If the internet dies or the user doesn't exist:
+//   .catch(err => {
+//     console.log("Something went wrong!", err);
+//   });
+
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(response => response.json)
+// .then(id)
+
+// br
+
+// 1. Ask for the data
+// fetch('https://jsonplaceholder.typicode.com/todos/2') // 1 = user 1 , 2 = user 2we have to change num after /
+  
+//   // 2. The "Pager" buzzes. We tell JS to turn the response into a readable object
+//   .then(response => response.json())
+  
+//   // 3. Now we have the actual data! Let's print it.
+//   .then(data => {
+//     console.log("Here is your Todo:", data);
+//     console.log("Task is:", data.completed);
+//   })
+  
+//   // 4. If the link is broken or internet is down, this runs:
+//   .catch(error => {
+//     console.error("Oh no, an error!", error);
+//   });
+
+// if we want to see all data
+fetch('https://jsonplaceholder.typicode.com/todos') // No ID at the end
+  .then(res => res.json())
+  .then(allData => {
+    // Since this is an ARRAY, we use brackets [index]
+    console.log("First item:", allData[10].title);
+    // console.log("Second item:", allData[1].title);
+    
+    // Or see how many we got
+    console.log("Total todos received:", allData.length); 
+  });
