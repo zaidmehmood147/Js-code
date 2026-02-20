@@ -161,3 +161,13 @@
 
 // 4 pm ig?
 
+// var a = 4 ; 
+// var b = 6 ; 
+// try {
+//     if(a===b){
+
+//         console.log("OK")
+//     }
+// } catch (error) {
+//     console.error("Errorrrrr")
+// }
