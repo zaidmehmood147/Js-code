@@ -63,7 +63,12 @@
 // console.log(rej)
 // })
 // console.log(promise)
-// async / await
+// // async / await
+// Synchronous (Normal): The waiter takes your order, goes into the kitchen, and stands there staring at the chef until the food is done. 
+// He can't help anyone else. The whole restaurant stops.
+
+// Asynchronous (async): The waiter takes your order, drops the ticket in the kitchen, 
+// and goes to serve other tables. When the food is ready, he comes back to your table.
 // console.log("first")
 // async function fetchApi() {
 //     try {
@@ -155,3 +160,4 @@
 // )
 
 // 4 pm ig?
+
