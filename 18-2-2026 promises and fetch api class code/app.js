@@ -161,11 +161,16 @@
 
 // 4 pm ig?
 
-var a = 4 ; 
+// var a = 4 ; 
  
-try {
-    console.log(c)
-} catch (error) {
-    console.error("Errorrrrr")
-}
+// try {
+//     console.log(c)
+// } catch (error) {
+//     console.error("Errorrrrr")
+// }
 
+// fetch('https://jsonplaceholder.typicode.com/photos/8')
+// .then(respose => respose.json())
+// .then(
+//    data => console.log( data.url)
+// )
