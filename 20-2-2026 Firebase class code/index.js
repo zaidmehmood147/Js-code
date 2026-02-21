@@ -15,3 +15,30 @@ const firebaseConfig = {
   appId: "1:514258031376:web:7f5d9b6f2209fb72970b95",
   measurementId: "G-JT7ML11JCK",
 };
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+console.log("initialized app=>", app);
+
+const auth = getAuth(app);
+console.log("auth=>", auth);
+
+//signup
+var signupBtn = document.getElementById("signupBtn");
+signupBtn.addEventListener("click", signup);
+
+function signup() {
+  var semail = document.getElementById("semail").value;
+  var spassword = document.getElementById("spassword").value;
+
+  createUserWithEmailAndPassword(auth, semail, spassword)
+    .then((userCredential) => {
+      const user = userCredential.user;
+      console.log("user=>", user);
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      console.log("error",errorMessage)
+      console.log("errorcode",errorCode)
+    });
+}
