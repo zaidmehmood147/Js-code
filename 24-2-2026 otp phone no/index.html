@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> firebase</title>
 </head>
 <body>
-  <script src="main.js"></script>
+  <style>
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid #dadce0;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.google-btn img {
+  width: 18px;
+  height: 18px;
+}
+</style>
+  <h1> Firebase</h1>
+  <h2>Signup</h2>
+  <input type="email" id="semail" placeholder="Email">
+  <input type="password" id="spassword" placeholder="Password">
+  <button id="signupBtn">Signup</button>
+
+  <h2>Login</h2>
+  <input type="email" id="lemail" placeholder="Email">
+  <input type="password" id="lpassword" placeholder="Password">
+  <button id="loginBtn">Login</button>
+<br>
+<button id="logout">Logout</button>
+
+<!-- continue with google -->
+<button class="google-btn" id="google">
+  <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo">
+  Continue with Google
+</button>
+
+<h2 id="text"></h2>
+
+
+<h1>OTP verification</h1>
+<input type="number" placeholder="enter number" id="phnNumber">
+<button id="sendOtpButton">Send Otp</button>
+<!-- recaptcha container -->
+
+<input type="text" placeholder="enter code" id="otpVerify" >
+<button id="otpveifyBtn">OTP Verify</button>
+
+<div id="recaptcha-container"></div>
+<script src="main.js" type="module"></script>
 </body>
 </html>
