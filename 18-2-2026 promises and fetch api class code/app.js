@@ -168,7 +168,7 @@
 // } catch (error) {
 //     console.error("Errorrrrr")
 // }
-
+// //// / / /  / / / /  // /addEventListener
 // fetch('https://jsonplaceholder.typicode.com/photos/8')
 // .then(respose => respose.json())
 // .then(
