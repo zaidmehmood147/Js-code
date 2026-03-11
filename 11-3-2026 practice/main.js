@@ -20,9 +20,31 @@
 // })
 
 
-var btn = document.getElementById("btn") ;
-var input = document.getElementById("input") ; 
+// 
 
-btn.addEventListener("click" , function() {
-    console.log(input.value)
-})
+
+
+// console.log(randomNum)
+// btn.addEventListener("click" , function() {
+//     // console.log(input.value)
+
+   
+// })
+
+// var btn = document.getElementById("btn") ;
+//  var input = document.getElementById("input"); 
+// let pass = "zaid2060" ;
+//  btn.addEventListener("click" , 
+//     function(){
+//  if(input.value === pass){
+//     console.log("Login successful")
+//  } else{
+//        console.error("incorrect password") 
+//     }
+//     }
+   
+//  )
+
+btn.onclick = () => input.value === "zaid2060" 
+  ? console.log("Login successful") 
+  : console.error("incorrect password");
