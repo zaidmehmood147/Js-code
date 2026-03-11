@@ -20,6 +20,9 @@
 // })
 
 
-var btn = document.getElementById("btn")
-var input = document.getElementById("input")
+var btn = document.getElementById("btn") ;
+var input = document.getElementById("input") ; 
 
+btn.addEventListener("click" , function() {
+    console.log(input.value)
+})
