@@ -14,3 +14,12 @@
 // console.log(date)
 
 
+// var btn = document.getElementById("btn")
+// btn.addEventListener("click" , function () {
+//     alert("btn clicked")
+// })
+
+
+var btn = document.getElementById("btn")
+var input = document.getElementById("input")
+
