@@ -47,5 +47,5 @@
 
 btn.onclick = () => input.value === "zaid2060" 
   ? console.log("Login successful") 
-  //
+  // ////   / / // / / / / / /
   : console.error("incorrect password");
