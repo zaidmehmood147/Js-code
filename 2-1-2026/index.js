@@ -5,7 +5,7 @@
 //    }
 //    console.log("email",email)
 // //    console.log("email",emailId)
-// }
+// } 
 
 function checkmate(sub) {
   var uname = document.getElementById("sub")
