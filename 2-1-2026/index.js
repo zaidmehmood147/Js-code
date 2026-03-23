@@ -14,7 +14,7 @@ function checkmate(sub) {
   }
   console.log(sub)
 }
-////        /  //  ///  / /// / //  
+////        /  //  ///  / /// / // ////  
 function checkCampus() {
   var rollNumber = document.getElementById("rollNumber").value;
   var campus;
