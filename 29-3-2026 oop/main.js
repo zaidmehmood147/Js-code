@@ -23,3 +23,29 @@
 // 2.Inherit
 // 3.encapsulation
 // 4.polymorphism
+
+
+// functional base
+// function data(){
+//     console.log("inside func")
+// }
+// data()
+
+// class base
+class Students{
+    constructor(sname,sage,sclass,sid,sroll){
+this.sname=sname,
+this.sage=sage,
+this.sclass=sclass,
+this.sid=sid,
+this.sroll=sroll
+    }
+studentData(){
+    console.log(`std name is ${this.sname} and age is ${this.sage} `)
+}
+}
+// object (instance)
+const student1 = new Students("ali",20)
+const student2 = new Students("bilal",30)
+student1.studentData()
+student2.studentData()
