@@ -49,3 +49,44 @@ const student1 = new Students("ali",20)
 const student2 = new Students("bilal",30)
 student1.studentData()
 student2.studentData()
+
+
+
+// 1. --Abstraction 
+// abstraction is a specific way to hide the complex logic in code (class or object ) and show only user useable values.
+// we can use abstraction through - function , class , closures
+
+// function area(length){
+//     return 5 * length  //abstraction 
+// }
+// console.log(area(10))
+
+// function pi(radius){
+//     return Math.PI * radius *radius  //abstraction 
+// }
+// console.log(area(5))
+
+// class Car{
+//     constructor(model){
+//         this.model=model
+//     }
+// details(){
+    // console.log("car model is " + this.model)
+//     return this.model
+// }
+// }
+// const mycar = new Car("byd")
+// console.log(mycar.details())
+
+function counter(){
+var count = 0 
+ return{
+ inc:function(){
+    count++
+    console.log("count",count)
+}
+}
+}
+const c1 = counter()
+c1.inc()
+c1.inc()
