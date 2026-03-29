@@ -32,23 +32,25 @@
 // data()
 
 // class base
-class Students{
-    constructor(sname,sage,sclass,sid,sroll){
-this.sname=sname,
-this.sage=sage,
-this.sclass=sclass,
-this.sid=sid,
-this.sroll=sroll
-    }
-studentData(){
-    console.log(`std name is ${this.sname} and age is ${this.sage} `)
-}
-}
-// object (instance)
-const student1 = new Students("ali",20)
-const student2 = new Students("bilal",30)
-student1.studentData()
-student2.studentData()
+// class Students{
+//     constructor(sname,sage,sclass,sid,sroll){
+// this.sname=sname,
+// this.sage=sage,
+// this.sclass=sclass,
+// this.sid=sid,
+// this.sroll=sroll
+//     }
+// studentData(){
+//     console.log(`std name is ${this.sname} and age is ${this.sage} `)
+// }
+// }
+// // object (instance)
+// const student1 = new Students("ali",20)
+// const student2 = new Students("bilal",30)
+// student1.studentData()
+// student2.studentData()
+
+
 
 
 
@@ -63,30 +65,35 @@ student2.studentData()
 
 // function pi(radius){
 //     return Math.PI * radius *radius  //abstraction 
-// }
-// console.log(area(5))
+// // }
+// // console.log(area(5))
 
-// class Car{
+// // class Car{
 //     constructor(model){
 //         this.model=model
 //     }
 // details(){
-    // console.log("car model is " + this.model)
+//     console.log("car model is " + this.model)
 //     return this.model
 // }
 // }
 // const mycar = new Car("byd")
 // console.log(mycar.details())
 
-function counter(){
-var count = 0 
- return{
- inc:function(){
-    count++
-    console.log("count",count)
+// function counter(){
+// var count = 0 
+//  return{
+//  inc:function(){
+//     count++
+//     console.log("count",count)
+// }
+// }
+// }
+// const c1 = counter()
+// c1.inc()
+// // c1.inc()
+
+
+class Zaid{
+    constructor(){}
 }
-}
-}
-const c1 = counter()
-c1.inc()
-c1.inc()
