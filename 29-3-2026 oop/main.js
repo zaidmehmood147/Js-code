@@ -97,3 +97,8 @@
 class Zaid{
     constructor(){}
 }
+
+const abc = ("zaid", "zaid")
+
+
+///  
