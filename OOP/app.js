@@ -58,3 +58,47 @@
 
 // In your code: You have a details() method in a Parent class. The Child class can have its own 
 // version of details(). Even though they have the same name, they do different things depending on who calls them.
+
+
+
+
+// Class: The Blueprint (The Plan).
+
+// Object: The Reality (The Thing you built).
+
+// Constructor: The "Birth" of the object—where you set the name and age.
+
+// this: A way for the object to talk about itself ("My name is...").
+
+// 1. Abstraction
+
+// class CoffeeMachine {
+//     #boilWater() { // Private: The user doesn't need to see this
+//         return "Water is not boiling at 100°C...";
+//     }
+
+//     makeCoffee() { // Public: This is the only button the user sees
+//         console.log(this.#boilWater());
+//         console.log("Adding beans... Coffee is ready! ☕");
+//     }
+// }
+
+// const myMachine = new CoffeeMachine();
+// myMachine.makeCoffee(); 
+// myMachine.#boilWater(); // ERROR: You can't touch this!
+
+
+// class Coffee{
+//     boilingpoint(){
+//         return "boiling point of water is 100 degree"
+//     }
+
+//     rice(){
+//         console.log(this.boilingpoint)
+//     }
+// }
+// const machine = new Coffee(
+// )
+
+// console.log(machine)
+
