@@ -72,33 +72,33 @@
 
 // 1. Abstraction
 
-// class CoffeeMachine {
-//     #boilWater() { // Private: The user doesn't need to see this
-//         return "Water is not boiling at 100°C...";
-//     }
+class CoffeeMachine {
+    #boilWater() { // Private: The user doesn't need to see this
+        return "Water is not boiling at 100°C...";
+    }
 
-//     makeCoffee() { // Public: This is the only button the user sees
-//         console.log(this.#boilWater());
-//         console.log("Adding beans... Coffee is ready! ☕");
-//     }
-// }
+    makeCoffee() { // Public: This is the only button the user sees
+        console.log(this.#boilWater());
+        console.log("Adding beans... Coffee is ready! ☕");
+    }
+}
 
-// const myMachine = new CoffeeMachine();
-// myMachine.makeCoffee(); 
-// myMachine.#boilWater(); // ERROR: You can't touch this!
+const myMachine = new CoffeeMachine();
+myMachine.makeCoffee(); 
+myMachine.#boilWater(); // ERROR: You can't toucsh this!
 
 
-// class Coffee{
-//     boilingpoint(){
-//         return "boiling point of water is 100 degree"
-//     }
+class Coffee{
+    boilingpoint(){
+        return "boiling point of water is 100 degree"
+    }
 
-//     rice(){
-//         console.log(this.boilingpoint)
-//     }
-// }
-// const machine = new Coffee(
-// )
+    rice(){
+        console.log(this.boilingpoint)
+    }
+}
+const machine = new Coffee(
+)
 
-// console.log(machine)
+console.log(machine)
 
