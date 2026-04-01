@@ -99,6 +99,6 @@ class Coffee{
 }
 const machine = new Coffee(
 )
-
+console.log("console working")
 console.log(machine)
 
