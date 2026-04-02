@@ -102,3 +102,18 @@ const machine = new Coffee(
 console.log("console working")
 console.log(machine)
 
+
+
+class Animal {
+  constructor(name) {
+    this.name = name; // Property
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`); // Method
+  }
+}
+
+const dog = new Animal("Rex");
+dog.speak(); // Output: Rex makes a noise.
+
