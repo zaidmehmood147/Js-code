@@ -117,3 +117,10 @@ class Animal {
 const dog = new Animal("Rex");
 dog.speak(); // Output: Rex makes a noise.
 
+
+class Dog extends Animal {
+  speak() {
+    console.log(`${this.name} barks!`); // Method overriding
+  }
+}
+
