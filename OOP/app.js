@@ -20,3 +20,30 @@ class Checkout {
 
 const myOrder = new Checkout(200);
 myOrder.applyCoupon("OLDMONEY"); // New Total: $150
+
+
+
+
+
+class Product {
+  constructor(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+}
+
+// Watch "extends" Product (it copies name and price)
+class Watch extends Product {
+  constructor(name, price, warrantyYears) {
+    super(name, price); // Passes name/price up to the Product template
+    this.warrantyYears = warrantyYears;
+  }
+
+  getLuxuryTax() {
+    return this.price + (this.warrantyYears * 50); // Extra $50 per year of warranty
+  }
+}
+
+const rolex = new Watch("GMT Master", 5000, 2);
+console.log(rolex.name); // "GMT Master" (Inherited)
+console.log(rolex.getLuxuryTax()); // 5100
