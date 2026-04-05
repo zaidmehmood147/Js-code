@@ -43,7 +43,7 @@ class Watch extends Product {
     return this.price + (this.warrantyYears * 50); // Extra $50 per year of warranty
   }
 }
-
+//
 const rolex = new Watch("GMT Master", 5000, 2);
 console.log(rolex.name); // "GMT Master" (Inherited)
 console.log(rolex.getLuxuryTax()); // 5100
