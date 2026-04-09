@@ -47,3 +47,9 @@ class Watch extends Product {
 const rolex = new Watch("GMT Master", 5000, 2);
 console.log(rolex.name); // "GMT Master" (Inherited)
 console.log(rolex.getLuxuryTax()); // 5100
+
+
+
+var prom = new Promise (
+  
+)
