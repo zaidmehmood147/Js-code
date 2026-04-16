@@ -56,6 +56,9 @@ function checkCode(){
   document.getElementById("pc").value = pc;
 }
 
+
+document.DOCUMENT_POSITION_DISCONNECTED
+
 function expandPara() {
   var longPara ="dhfvdjshvdjhvcdjhsvbcjhvsdckjdsbcfjgejkbje"
   var para = document.getElementById("para").innerText =longPara;
